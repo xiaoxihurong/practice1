@@ -69,3 +69,123 @@ body{
 .bl{
 	display: block;
 }
+
+
+
+.header{
+	height:65px;
+	background-color: white;
+	margin: 0 5px;
+}
+.header-left img{
+	width:150px;
+	height:65px;
+}
+.header-left p{
+	margin-left: 10px;
+	font-size: 25px;
+	text-align: center;
+	line-height: 65px;
+	color: black;
+}
+.header-left p span{
+	margin-right: 6px;
+}
+.header-right{
+	background-color: #fff;
+	width: 350px;
+	height:65px;
+	font-family: "icomoon";
+	font-size: 14px;
+	line-height: 65px;
+	color: blue;
+}
+.header-right select{
+	border: 0;
+	color: blue;
+	background-color: #fff;
+}
+.header-right span{
+	margin-right: 15px;
+}
+.header-right span a{
+	color: blue;
+}
+.header-right img{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+
+
+
+
+nav{
+	height: 660px;
+	width: 16%;
+	margin-left:5px;
+	background:linear-gradient(to bottom,#0A305D,#414A99);
+}
+
+nav .nav-top{
+	height: 250px;
+	border-bottom: 2px solid #7396FF;
+}
+nav .nav-top dl{
+	margin-left: 10px;
+	color: white;
+	font-size: 18px;
+}
+nav .nav-top dt{
+	font-size: 25px;
+}
+.nav-top dd{
+	margin-top: 5px;
+}
+.nav-top span{
+	float: right;
+	font-size: 25px;
+	margin-right: 5px;
+	margin-top: -25px;
+}
+.nav-top img{
+	width: 120px;
+	height: 35px;
+}
+.nav-top .ju{
+	margin-top: 10px;
+}
+
+nav .nav-bottom{
+	height: 450px;
+	margin-top: 10px;
+	font-weight: 550;
+	font-family: "icomoon";
+	color: #ccccff;
+}
+.nav-bottom p{
+  	height: 60px;
+  	font-size: 22px;
+  	line-height:60px; 
+  	text-indent: 1em;
+  	cursor: pointer;
+}
+.nav-bottom p:hover{
+	color: white;
+	font-size: 20px;
+	background: rgb(255,255,255,.2);
+}
+.nav-bottom ul{
+	border-left: 3px solid blue;
+}
+.nav-bottom ul li{
+	margin-left: 22px;
+	font-size: 16px;
+  	height: 40px;
+  	margin-top: 8px;
+  	cursor: pointer;
+}
+.nav-bottom ul li:hover{
+	color: white;
+	background: rgb(255,255,255,.2);
+}
